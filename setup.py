@@ -6,6 +6,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         'Click',
+        'google-auth',
+        'google-cloud-storage',
     ],
     entry_points={
         'console_scripts': [
